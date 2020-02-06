@@ -1,0 +1,58 @@
+body, html {
+  background: url(../img/header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.buffer {
+  height: 5rem;
+}
+
+.btn {
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn:focus, .btn:active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus {
+  background-color: #e93817;
+  border: 3px solid #e94324;
+  box-shadow: 2px 2px 2px #ac1d03;
+}
+
+.btn-primary {
+  background-color: #f05f44;
+  border: 1px solid #e94324;
+}
+
+.btn-primary:hover {
+  background-color: #e93817;
+  border: 3px solid #e94324;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+/* .container {
+  height: 100%;
+} */
+/* la regola sopra equivale ad assegnare la classe h-100 di bootstrap */
+
+h1 {
+  color: #bdc2c7;
+  font-size: 3rem;
+}
+
+hr {
+  border: 3px solid yellow;
+  max-width: 100px;
+  /* margin-bottom: 100px; */
+  /* ho usato un div con classe buffer al posto */
+}
+
+.slogan {
+  color: rgb(240, 237, 230);
+}
